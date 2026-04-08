@@ -12,6 +12,20 @@ The goal is to practice SQL fundamentals while building a structured and well-do
 
 ------
 
+## 📁 Repository Structure
+
+```
+flight-delay-analysis-sql/
+│
+├── data/          # Dataset reference and source info
+├── queries/       # SQL queries
+├── insights/      # Analysis and findings (future)
+├── images/        # Visualizations (future)
+└── README.md
+```
+
+------
+
 ## 📂 Dataset
 
 - Source: Kaggle (Flight Data 2024)
@@ -38,16 +52,10 @@ The goal is to practice SQL fundamentals while building a structured and well-do
 - Exploration of `day_of_week` values
 - Validation of `day_of_week` semantics using `EXTRACT`
 
-------
-
-## 📁 Repository Structure
-
-```
-flight-delay-analysis-sql/
-│
-├── data/          # Dataset reference and source info
-├── queries/       # SQL queries
-├── insights/      # Analysis and findings (future)
-├── images/        # Visualizations (future)
-└── README.md
-```
+### Day 2 - Grouped aggregations
+- Validation of years represented in the dataset
+- Flight counts by `day_of_week`
+- Count of distinct origin airports
+- Flight counts by `origin`
+- Flight counts by `origin_state_nm`
+- Comparison of aggregation granularity: airport vs state
