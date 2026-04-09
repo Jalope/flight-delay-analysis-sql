@@ -59,3 +59,11 @@ flight-delay-analysis-sql/
 - Flight counts by `origin`
 - Flight counts by `origin_state_nm`
 - Comparison of aggregation granularity: airport vs state
+
+### Day 3 - Multi-dimensional aggregations & ratios
+- Flight counts by `origin_state_nm` and `day_of_week`
+- Validation of consistent weekly patterns across states
+- Flight counts by `origin_state_nm` and `month`
+- Identification of dataset limitation (only January and February)
+- Introduction to ratio calculations using scalar subqueries
+- Percentage distribution of flights by month
